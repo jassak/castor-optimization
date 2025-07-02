@@ -25,15 +25,12 @@ the range $[0, 1]$ and they sum up to 1, i.e. $b + d + u = 1$.
 
 We can combine multiple opinions using the **binomial multiplication**
 operation $\omega_x ∧ \omega_y$, which is defined as follows:
-$$
-b_{x∧y} = b_x b_y + \frac{b_x u_y + b_y u_x}{3}
-$$
-$$
-d_{x∧y} = d_x + d_y - d_x d_y
-$$
-$$
-u_{x∧y} = 1 - b_{x∧y} - d_{x∧y}
-$$
+
+$b_{x∧y} = b_x b_y + \frac{b_x u_y + b_y u_x}{3}$
+
+$d_{x∧y} = d_x + d_y - d_x d_y$
+
+$u_{x∧y} = 1 - b_{x∧y} - d_{x∧y}$
 
 
 ## Optimization using Simulated Annealing
