@@ -24,9 +24,6 @@ opinion is defined as a tuple of three real numbers $\omega = (b, d, u)$, where 
 the belief, $d$ is the disbelief, and $u$ is the uncertainty. Each number is in
 the range $[0, 1]$ and they sum up to 1, i.e. $b + d + u = 1$.
 
-We can combine multiple opinions using the **binomial multiplication**
-operation $\omega_x ∧ \omega_y$, which is defined as follows:
-
 To combine opinions along a path, we use **binomial multiplication** $\omega_x
 ∧ \omega_y$, which is defined as follows:
 
